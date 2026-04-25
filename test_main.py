@@ -12,3 +12,4 @@ def test_es_palindromo():
     assert es_palindromo("Ana") is True
     assert es_palindromo("Hola") is False
     assert es_palindromo("radar") is True
+    assert es_palindromo("12321") is True
